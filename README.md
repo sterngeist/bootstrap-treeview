@@ -1,42 +1,25 @@
 # Bootstrap Tree View
 
----
-
-![Bower version](https://img.shields.io/bower/v/bootstrap-treeview.svg?style=flat)
-[![npm version](https://img.shields.io/npm/v/bootstrap-treeview.svg?style=flat)](https://www.npmjs.com/package/bootstrap-treeview)
-[![Build Status](https://img.shields.io/travis/jonmiles/bootstrap-treeview/master.svg?style=flat)](https://travis-ci.org/jonmiles/bootstrap-treeview)
-
 A simple and elegant solution to displaying hierarchical tree structures (i.e. a Tree View) while leveraging the best that Twitter Bootstrap has to offer.
 
-![Bootstrap Tree View Default](https://raw.github.com/jonmiles/bootstrap-treeview/master/screenshot/default.PNG)
+![Bootstrap Tree View Default](https://raw.github.com/sterngeist/bootstrap-treeview/master/screenshot/default.PNG)
 
 ## Dependencies
 
 Where provided these are the actual versions bootstrap-treeview has been tested against.  
 
-- [Bootstrap v3.3.4 (>= 3.0.0)](http://getbootstrap.com/)
-- [jQuery v2.1.3 (>= 1.9.0)](http://jquery.com/)
-
+- [Bootstrap 4.x](http://getbootstrap.com/)
+- [Font Awesome 4.7.0](https://fontawesome.com/)
 
 ## Getting Started
 
 ### Install
 
-You can install using bower (recommended):
+You can install using npm:
 
 ```javascript
-$ bower install bootstrap-treeview
+$ npm install https://github.com/sterngeist/bootstrap-treeview.git
 ```
-
-or using npm:
-
-```javascript
-$ npm install bootstrap-treeview
-```
-
-or [download](https://github.com/jonmiles/bootstrap-treeview/releases/tag/v1.2.0) manually.
-
-
 
 ### Usage
 
@@ -67,7 +50,6 @@ function getTree() {
 
 $('#tree').treeview({data: getTree()});
 ```
-
 
 ## Data Structure
 
@@ -220,8 +202,6 @@ Used in conjunction with global showTags option to add additional information to
 
 You can extend the node object by adding any number of additional key value pairs that you require for your application.  Remember this is the object which will be passed around during selection events.
 
-
-
 ## Options
 
 Options allow you to customise the treeview's default appearance and behaviour.  They are passed to the plugin on initialization, as an object.
@@ -236,6 +216,7 @@ $('#tree').treeview({
   backColor: 'green'
 });
 ```
+
 You can pass a new options object to the treeview at any time but this will have the effect of re-initializing the treeview.
 
 ### List of Options
@@ -366,7 +347,6 @@ Whether or not to display tags to the right of each node.  The values of which m
 String, class names(s).  Default: "glyphicon glyphicon-unchecked" as defined by [Bootstrap Glyphicons](http://getbootstrap.com/components/#glyphicons)
 
 Sets the icon to be as an unchecked checkbox, used in conjunction with showCheckbox.
-
 
 ## Methods
 
@@ -746,18 +726,3 @@ $('#tree').on('nodeSelected', function(event, data) {
 `searchComplete (event, results)`  - After a search completes
 
 `searchCleared (event, results)`  - After search results are cleared
-
-
-
-## Copyright and Licensing
-Copyright 2013 Jonathan Miles
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.

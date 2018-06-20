@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-treeview",
   "version": "1.0.0",
-  "description": "Tree View for Twitter Bootstrap 4",
+  "description": "Tree View for Twitter Bootstrap",
   "keywords": [
     "twitter",
     "bootstrap",
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "bootstrap": "4.x",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "4.7.0"
   },
   "engines": {
     "node": ">= 10.4.1"
