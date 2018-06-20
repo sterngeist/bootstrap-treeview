@@ -1,1 +1,1 @@
-Live demo can be found at [jonmiles.github.io/bootstrap-treeview](http://jonmiles.github.io/bootstrap-treeview)
+Live demo can be found at [sterngeist.github.io/bootstrap-treeview](http://sterngeist.github.io/bootstrap-treeview)
