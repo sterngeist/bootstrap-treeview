@@ -24,11 +24,6 @@
     "type": "git",
     "url": "https://github.com/sterngeist/bootstrap-treeview.git"
   },
-  "scripts": {
-    "install": "bower install",
-    "start": "node app",
-    "test": "grunt test"
-  },
   "peerDependencies": {
     "bootstrap": "4.x",
     "font-awesome": "4.7.0"
