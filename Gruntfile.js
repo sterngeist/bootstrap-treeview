@@ -22,6 +22,7 @@ module.exports = function(grunt) {
       }
     },
 
+    /*
     qunit: {
         all: ['tests/*.html']
     },
@@ -47,16 +48,17 @@ module.exports = function(grunt) {
         ]
       }
     }
+    */
   });
 
   // load up your plugins
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-qunit');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // register one or more task lists (you should ALWAYS have a "default" task list)
-  grunt.registerTask('default', ['uglify','cssmin', 'copy', 'qunit', 'watch']);
+  grunt.registerTask('default', ['uglify','cssmin']);
   grunt.registerTask('test', 'qunit');
 };
