@@ -9,7 +9,7 @@ A simple and elegant solution to displaying hierarchical tree structures (i.e. a
 Where provided these are the actual versions bootstrap-treeview has been tested against.  
 
 - [Bootstrap 4.x](http://getbootstrap.com/)
-- [Font Awesome 4.7.0](https://fontawesome.com/)
+- [Font Awesome 5.x](https://fontawesome.com/)
 
 ## Getting Started
 
